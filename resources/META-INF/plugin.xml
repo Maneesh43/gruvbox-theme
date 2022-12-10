@@ -1,0 +1,41 @@
+<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
+<idea-plugin>
+    <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
+    <id>Gruvbox-maneesh-43</id>
+    <version>1.0.0</version>
+
+    <!-- Public plugin name should be written in Title Case.
+         Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
+    <name>Gruvbox-maneesh43</name>
+    <category>UI</category>
+
+    <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
+    <vendor email="thouti.maneesh43@gmail.com" url="https://github.com/Maneesh43/gruvbox-intellij-theme">Maneesh Thouti</vendor>
+
+    <idea-version since-build="221" until-build="231.*"/>
+
+    <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
+         Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
+         Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
+    <description>Gruvbox Theme to support latest versions of IntelliJ 231.*</description>
+
+    <!-- Short summary of new features and bugfixes in the latest plugin version.
+         Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
+    <change-notes>Initial Version,
+    supports latest intellij ide upto 231.*
+    </change-notes>
+
+    <!-- Product and plugin compatibility requirements.
+         Read more: https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+
+        <themeProvider id="1ac4c2ba-0500-4769-a28e-366a21361135" path="/theme/gruvbox_dark_hard.theme.json"/>
+        <themeProvider id="de481a0b-7d95-4c62-b62b-fcc435dbc6a6" path="/theme/gruvbox_dark_medium.theme.json"/>
+        <themeProvider id="3c5db0a6-6ea5-405f-a4dd-9fb33e2102c5" path="/theme/gruvbox_dark_soft.theme.json"/>
+        <themeProvider id="21dcf6d6-adab-43c0-9c84-bf38a4f8b7eb" path="/theme/gruvbox_light_hard.theme.json"/>
+        <themeProvider id="2ef4c191-48c5-490f-bf2f-393a90951292" path="/theme/gruvbox_light_medium.theme.json"/>
+        <themeProvider id="bd468dc7-8a45-475e-83bb-dae000e6d1db" path="/theme/gruvbox_light_soft.theme.json"/>
+    </extensions>
+</idea-plugin>
