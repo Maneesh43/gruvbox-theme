@@ -1,28 +1,28 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
     <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
-    <id>Gruvbox-maneesh-43</id>
+    <id>Gruvbox43</id>
     <version>1.0.0</version>
 
     <!-- Public plugin name should be written in Title Case.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
-    <name>Gruvbox-maneesh43</name>
+    <name>Gruvbox Theme</name>
     <category>UI</category>
 
     <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
-    <vendor email="thouti.maneesh43@gmail.com" url="https://github.com/Maneesh43/gruvbox-intellij-theme">Maneesh Thouti</vendor>
+    <vendor email="thouti.maneesh43@gmail.com" url="https://github.com/Maneesh43/gruvbox-theme">Maneesh Thouti</vendor>
 
-    <idea-version since-build="221" until-build="231.*"/>
+    <idea-version since-build="221" until-build="233.*"/>
 
     <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
          Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
-    <description>Gruvbox Theme to support latest versions of IntelliJ 231.*</description>
+    <description>Inspired from color schemes badwolf, jellybeans and solarized.Designed to soothe eyes.</description>
 
     <!-- Short summary of new features and bugfixes in the latest plugin version.
          Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
-    <change-notes>Initial Version,
-    supports latest intellij ide upto 231.*
+    <change-notes>
+        Support build 233.*
     </change-notes>
 
     <!-- Product and plugin compatibility requirements.
